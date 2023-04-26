@@ -133,7 +133,7 @@ export default function News(props) {
         try {
             setPageNumber(pageNumber + 1);
 
-            let p = await fetch(`https://newsapi.org/v2/top-headlines?country=${currentCountryName}&category=${props.category}&pageSize=6&apiKey=17acba01570847a69a036cc5a55e3b31&page=${pageNumber}`);
+            let p = await fetch(`https://newsapi.org/v2/top-headlines?country=${currentCountryName}&category=${props.category}&pageSize=6&apiKey=${API_KEY}&page=${pageNumber}`);
 
             console.log(pageNumber);
 
