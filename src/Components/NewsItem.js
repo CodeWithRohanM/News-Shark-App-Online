@@ -7,7 +7,7 @@ export default class NewsItem extends Component {
 
             <div className="flex justify-center antialiased hover:-translate-y-1 transition ease-in-out duration-600 ">
                 <div className="rounded-3xl shadow-2xl bg-white max-w-sm">
-                    <div className="h-60 shadow-xl">
+                    <div className="h-60 shadow-xl"> 
                         <a href={this.props.url} target="_blank" data-mdb-ripple="true" data-mdb-ripple-color="light">
                             <img className="rounded-t-xl object-cover h-60 w-full" src={this.props.urlToImage} alt="" />
                         </a>
